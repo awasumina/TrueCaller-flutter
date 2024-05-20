@@ -6,7 +6,7 @@ class SansBold extends StatelessWidget {
   final size;
 
   const SansBold(this.text, this.size, {super.key});
-
+ 
   @override
   Widget build(BuildContext context) {
     return Text(
