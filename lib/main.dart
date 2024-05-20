@@ -451,7 +451,7 @@ class _MyHomePageState extends State<MyHomePage> {
                               child: Row(
                                 mainAxisAlignment: MainAxisAlignment.center,
                                 children: [
-                                  SansBold("Dad", 18.0),
+                                  SansBold("Dad", 18.0), 
                                   Padding(
                                     padding: const EdgeInsets.only(
                                         left: 18.0, right: 18.0),
