@@ -1,16 +1,27 @@
 # truecaller
 
-A new Flutter project.
+This Flutter project is a UI clone of the Truecaller app, demonstrating UI development skills using Flutter widgets and Google Fonts.
 
-## Getting Started
+## Overview
 
-This project is a starting point for a Flutter application.
+The project consists of two main files:
 
-A few resources to get you started if this is your first Flutter project:
+- `components.dart`: Contains custom widgets like `SansBold`, `Sans`, `BoxContainer`, and `TextForm` for text styling and input fields.
+- `main.dart`: Implements the main UI structure, including an AppBar, Drawer for navigation and user details, search bar, call logs display, and styled containers.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Features
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- Drawer Navigation: Mimics Truecaller's drawer for user settings and navigation options.
+- Search Bar: Allows users to search for numbers, names, and more.
+- Call Logs: Displays recent call logs with user avatars, call durations, locations, and call icons.
+- Styled Containers: Uses custom containers for aesthetic presentation of information.
+- Iconography: Utilizes icons for different actions and features throughout the UI.
+
+
+## Dependencies
+
+- `flutter/material.dart`: Material design components for Flutter.
+- `google_fonts`: Package for accessing Google Fonts in Flutter apps.
+
+Purpose:
+The purpose of this project is to showcase Flutter UI development skills by recreating a simplified version of the Truecaller app's interface, focusing on key visual elements and functionality commonly found in such communication apps. Icons and images used in this project are for demonstration purposes and are not owned or affiliated with Truecaller.
